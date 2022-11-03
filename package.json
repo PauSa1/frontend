@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@types/node": "18.11.9",
@@ -16,5 +17,26 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.8.4"
-  }
+  },
+  "devDependencies": {
+    "cypress": "^10.11.0"
+  },
+  "description": "BOOKS CLIENT",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauSa1/frontend.git"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "paulina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauSa1/frontend/issues"
+  },
+  "homepage": "https://github.com/PauSa1/frontend#readme"
 }
